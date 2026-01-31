@@ -8,8 +8,6 @@ Course: COMP4911
 Instructor/Sponsor: Bruce Link  
 
 
----
-
 
 ## Tech Stack
 
@@ -27,24 +25,23 @@ Instructor/Sponsor: Bruce Link
 ### Deployment
 - OKD / OpenShift (container-based deployment)
 
----
 
 ## Repository Structure
 
-├── frontend/ 	# .NET client application
-├── backend/ 	# Jakarta EE backend (EJB + REST)
-├── Sql// 		# SQL scripts and schema files
-├── tests/  	# Any test code for front end or back end
-├── docs/		# Any documentation for the project
+```text
+├── frontend/    # .NET client application
+├── backend/     # Jakarta EE backend (EJB + REST)
+├── Sql/         # SQL scripts and schema files
+├── tests/       # Any test code for front end or back end
+├── docs/        # Any documentation for the project
 └── README.md
+```
 
----
 
 ## Rest Endpoint
 
 - `GET /api/greet`
 
----
 
 ## Development Setup
 
@@ -57,7 +54,6 @@ Install the following tools:
 - WildFly
 - Git
 
----
 
 ## Frontend Setup (.NET Razor Pages)
 
@@ -70,7 +66,6 @@ Frontend runs at:
 
 http://localhost:3000
 
----
 
 ## Backend Setup (Jakarta REST)
 
@@ -83,13 +78,11 @@ Test endpoint:
 
 http://localhost:8080/Project/api/greet
 
----
 
-##Database Setup
+## Database Setup
 
 TBD
 
----
 
 ## Running Both Together
 
@@ -110,7 +103,6 @@ http://localhost:3000
 
 Frontend should display the backend response.
 
----
 
 ## Team Rules and Standards
 
@@ -136,7 +128,6 @@ Frontend should display the backend response.
 
 - Open a Pull Request (PR) before merging
 
----
 
 ### Pull Requests
 - PR must include a clear description of changes
@@ -148,7 +139,6 @@ All pull requests must be reviewed by:
 - Nate  @NateRolo 
 - Lucas @zhapte
 
----
 
 ## Naming Conventions
 
@@ -162,7 +152,6 @@ Frontend (.NET)
 - PageModels: PascalCase.cshtml.cs  
 - Variables: camelCase
 
----
 
 ### Commit Message Guidelines
 
@@ -176,7 +165,6 @@ Bad examples:
 - changes
 - fix
 
----
 
 ### Folder Organization Rules
 
@@ -186,7 +174,6 @@ Bad examples:
 - tests/    → unit tests and integration tests for both frontend and backend 
 - docs/		→ reports, diagrams, meeting notes 
 
----
 
 ### Documentation Rules
 
@@ -206,7 +193,6 @@ Bad examples:
   - New required tool
   - New deployment step
   
----
 
 ## Authentication Plan
 
@@ -215,7 +201,6 @@ Planned approach:
 - Token stored in HttpOnly cookie
 - Role-based access control (Admin, Employee, Manager)
 
----
 
 ## Deployment Notes
 
