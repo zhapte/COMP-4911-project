@@ -140,7 +140,7 @@ All pull requests must be reviewed by:
 - Lucas @zhapte
 
 
-## Naming Conventions
+### Naming Conventions
 
 Backend (Java)
 - Classes: PascalCase  
